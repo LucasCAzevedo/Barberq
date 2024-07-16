@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  background-image: url("../image/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #f8f8f8;
+  text-shadow: 1px 1px 2px black;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: gold;
+  border: 1px solid goldenrod;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: gold;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: black;
+  background-color: goldenrod;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}

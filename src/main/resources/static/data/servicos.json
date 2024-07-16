@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "descricao": "Corte de Cabelo Masculino",
+      "preco": 50,
+      "status": "Disponível"
+    },
+    {
+      "id": 2,
+      "descricao": "Barba Completa",
+      "preco": 30,
+      "status": "Indisponível"
+    },
+    {
+      "id": 3,
+      "descricao": "Coloração de Cabelo",
+      "preco": 80,
+      "status": "Disponível"
+    },
+    {
+        "id": 4,
+        "descricao": "Corte de Cabelo Feminino",
+        "preco": 50,
+        "status": "Disponível"
+      }
+  ]
+  

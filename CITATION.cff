@@ -1,0 +1,45 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: BarberQ
+authors:
+  - family-names: Miranda Pacher
+    given-names: Arthur  
+  - family-names: de Fátima
+    given-names: Gabrielly
+  - family-names: da Silveira
+    given-names: Gabriel
+  - family-names: Campos Rodrigues
+    given-names: Gustavo 
+  - family-names: Cerqueira Azevedo
+    given-names: Lucas 
+  - family-names: Pedro Campos de Barcelos
+    given-names: João 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: de Macedo Neto
+    given-names: Cristiano 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Boechat Seufitelli
+    given-names: Danilo
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Norberta de Brito
+    given-names: Aline
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Marcia Gomes Amaral
+    given-names: Cleia
+keywords: 
+  - Software de Agendamento
+  - Gestão de Processos de Negócios
+  - Serviços de Barbearia
+  - Projeto Acadêmico
+  - Automação de Serviços
+  - Sistema de Reservas
+  - Aplicação Web
+  - Bem Estar
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-1-ti2-1381100-barberq.git
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2024-06-25

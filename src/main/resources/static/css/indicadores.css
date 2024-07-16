@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* Variables */
+:root {
+    --color-white: white;
+    --color-black: black;
+    --color-grey: #CECECE;
+    --color-primary: #7385F2;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F4F4FA;
+}
+
+/* Navbar */
+header {
+    margin-bottom: 20px;
+}
+
+/* Main Content */
+.container {
+    padding: 0 15px;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 7px;
+    box-shadow: 0px 0px 30px -18px rgba(0, 0, 0, 0.55);
+    overflow: hidden;
+}
+
+.card-body {
+    text-align: center;
+    color: var(--color-black);
+}
+
+.card-title {
+    font-size: 43px;
+}
+
+.cardOne {
+    background: linear-gradient(90deg,#9862F9, #8AAAFE);
+    color: var(--color-white);
+}
+
+.cardTwo {
+    background: linear-gradient(90deg,#FDB4B0, #FF749C);
+    color: var(--color-white);
+}
+
+.cardThree {
+    background: linear-gradient(90deg,#FFC88B, #FF914E);
+    color: var(--color-white);
+}

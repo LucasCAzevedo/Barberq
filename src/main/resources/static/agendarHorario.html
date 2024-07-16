@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Barbearia</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/agendarHorario.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Agendar Barbearia</h2>
+        <form id="agendarForm">
+            <div class="form-group">
+                <label for="barbeariaNome">Barbearia</label>
+                <input type="text" class="form-control" id="barbeariaNome" required>
+            </div>
+            <div class="form-group">
+                <label for="barbeiroNome">Barbeiro</label>
+                <input type="text" class="form-control" id="barbeiroNome" required>
+            </div>
+            <div class="form-group">
+                <label for="servico">Serviço</label>
+                <select class="form-control" id="servico" required>
+                    <option value="">Selecione o serviço</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="data">Data</label>
+                <input type="date" class="form-control" id="data" required>
+            </div>
+            <div class="form-group">
+                <label for="hora">Hora</label>
+                <input type="time" class="form-control" id="hora" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Agendar</button>
+        </form>
+    </div>
+
+    <script src="js/agendarHorario.js"></script>
+</body>
+</html>
